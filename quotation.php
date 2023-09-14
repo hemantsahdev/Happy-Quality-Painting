@@ -104,7 +104,7 @@ if(isset($_POST['quotation_submit'])){
 
 
     if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phonenumber']) || empty($_POST['type-of-property'])  || empty($_POST['type-of-area']) || empty($_POST['type-of-surface']) || $_POST['time']  ) {
-      echo " <p class="error_message_onsubmit">All fields are required to be filled*;</p>";
+      echo " <p>All fields are required to be filled*;</p>";
     }
 }
 
